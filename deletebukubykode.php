@@ -1,5 +1,5 @@
 <?php
-// Include file koneksi.php untuk mendapatkan koneksi ke database
+// Include file connection.php untuk mendapatkan koneksi ke database
 include 'connection.php';
 
 $conn = getConnection();

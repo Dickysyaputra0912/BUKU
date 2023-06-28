@@ -1,14 +1,12 @@
-
 <?php
 include 'connection.php';
 
-
 $connection = getConnection();
-header('Access-Control-Allow-Origin: http://localhost:5174');
+
 
     if ($connection) {
         try {
-            $statement = $connection->query("SELECT * FROM kategori");
+            $statement = $connection->query("SELECT * FROM anggota");
 
             $statement->setFetchMode(PDO::FETCH_ASSOC);
 
